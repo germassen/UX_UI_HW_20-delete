@@ -1,391 +1,65 @@
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
+.card-text {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 730px;
+  top: 100px;
   
-/* navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #F3EEEB;
-  position: fixed;
-  top: 0;
-  width: 100%; 
-}
-
-.topnav img {
-  float: left;
-  max-height: 40px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  padding-left: 30px;
-}
-  
-/* topnav links */
-.topnav a {
-  float: right;
-  display: block;
-  color: #5a3d32;
-  text-align: center;
-  padding: 25px 30px;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-}
-  
-/* topnav link hover */
-.topnav a:hover {
-  text-decoration: underline;
-  color: #5a3d32;
-}
-  
-  /* whole top part */
-.topPart {
-position: static;
-width: auto;
-height: 600px;
-left: 0px;
-/* top: 50px; */
-background: #E3CCC0;
-}
-
-/* hero content */
-#heroGrid {
-  /* border: 1px solid blue; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-left: 150px;
-  margin-top: 50px;
-  padding-top: 75px;
-  grid-gap: 1em;
-  Position: static;
-}
-
-.content {
-  background-color: none;
-  Padding: 20px;
-  /* border: 1px solid red; */
-
-    }
-.contentImage img{
-  width: 200px;
-  height: 200px;
-  margin-left: 75px;
-  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
-  border-radius: 220px;
-}
-
-.content h1{
-  font-family: 'Vollkorn', serif;
-  color: #c08269;
-  }
-
-.content p{
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* my skills */
-.mySkills {
-/* border: 1px solid purple; */
-display: block;
-width: 600px;
-margin-left: 150px;
-/* margin-top: 50px; */
-padding-top: 10px;
-grid-gap: 1em;
-padding-left: 1em;
-}
-
-.skillContainer h3 {
-  font-size: 10px;
-  color: #5a3d32;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.skillContainer {
-/* margin: 0px 5%;
-display: grid;
-grid-template-columns: repeat(5,1fr);
-grid-gap: 1em;
-grid-auto-rows: minmax(100px, auto) */
-/* border: 1px solid purple; */
-/* display: inline; */
-grid-template-columns: repeat(5, 1fr);
-grid-gap: 1em;
-width: 600px;
-display: grid;
-}
-
-.userResearch img{
-  /* width: 65px; */
-  height: auto;
-  /* border: solid 1px red; */
-  margin: 10px;
-}
-
-.userResearch {
-  width: 100px;
-  /* border: solid 1px blue; */
-}
-
-.wireframe img{
-  /* width: 58px; */
-  height: auto;
-  /* border: solid 1px red; */
-  margin: 10px;
-}
-
-.wireframe {
-  width: 100px;
-  /* border: solid 1px blue; */
-}
-
-.visual img{
-  /* width: 58px; */
-  height: auto;
-  /* border: solid 1px red; */
-  margin: 10px;
-}
-
-.visual {
-  width: 100px;
-  /* border: solid 1px blue; */
-}
-
-.code img{
-  /* width: 51px; */
-  height: auto;
-  /* border: solid 1px red; */
-  margin: 10px;
-}
-
-.code {
-  width: 100px;
-  /* border: solid 1px blue; */
-}
-
-
-.copy img{
-  /* width: 65px; */
-  height: auto;
-  /* border: solid 1px red; */
-  margin: 10px;
-}
-
-.copy {
-  width: 100px;
-  /* border: solid 1px blue; */
-}
-
-.mySkills h2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
-  color:#5a3d32;
-
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #5A3D32;  
 }
-
-/*my work css*/
-.workGrid {
-  display: grid;
-  grid-row-gap: 100px;
-  /* border: 1px solid rgb(209, 37, 180); */
-}
-
-.myWork h1{
-  font-family: 'Vollkorn', serif;
-  color: #c08269;
-  font-size: 20px;
-  /* border: 1px solid green; */
-}
-
-.workItems img {
-  max-width: 200px;
-}
-
-.myWork {
-  /* border: 1px solid red; */
-display: block;
-width: 1000px;
-margin-left: 150px;
-/* margin-top: 50px; */
-padding-top: 10px;
-/* grid-gap: 1em; */
-padding-left: 1em;
-height: 1500px;
-}
-
-.work1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* border: solid 1px yellowgreen; */
-  width: 100%;
-  opacity: 0;
-}
-
-.workItems {
-  /* margin: 0px 5%;
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-gap: 1em;
-  grid-auto-rows: minmax(100px, auto) */
-  /* border: 1px solid purple; */
-  /* display: inline; */
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1em;
-  width: 1000px;
-  display: grid;
-  }
+.card-title {
+  position: absolute;
+  width: 400px;
+  height: 76px;
+  left: 730px;
+  top: 50px;
   
-.description h2 {
-  font-family: 'Vollkorn', serif;
-  color: #5a3d32;
-  font-size: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 25px;
+  color: #5A3D32;
+  
 }
 
-.description h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: #5a3d32;
-  font-size: 14px;
-  font-weight: 700;
+.text-left {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #5A3D32;
+
+
 }
 
-.description p {
-  font-family: 'Montserrat', sans-serif;
-  color: #5a3d32;
-  font-size: 14px;
-}
-
-.work1 button {
-width: 150px;
-height: 40px;
-background: #E4E4E4;
-border-radius: 15px;
-border: 0px;
-float: right;
-font-family: 'Montserrat', sans-serif;
-font-weight: 700;
-font-size: 12px;
-text-align: center;
+.section-title {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 25px;
 color: #5A3D32;
 }
 
-/* footer */
-.footerLinks {
-  padding-top: 25px;
-  margin-left: 40px;
-  float: absolute;
-    }
-.footerLinks a{
-    display: block;
-    color: #5a3d32;
-    text-align: left;
-    text-decoration: none;
-    font-size: 11px;
-}
-.footerCopyright p{
-    font-family: 'Montserrat', sans-serif;
-    color: #5a3d32;
-    font-size: 11px;
-    text-align: center;
-    padding-top: 25px;
-}
-ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-}
-.footerSocial img{
-    max-height: 30px;
-    Padding-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-top: 25px;
-    float: right;
+.regularContent {
+  padding: 75px;
 }
 
-#footerGrid {
-  /* position: sitcky; */
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #DAA88A;
-  display: grid;
-  height: 95px;
-  grid-template-columns: repeat, (3,1fr);
-  grid-template-areas:
-    "footerLinks footerCopyright footerSocial"
-    ;
-  }
-
-@media only screen and (max-width: 600px) {
-#heroGrid {
-    /* border: 1px solid blue; */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 50px;
-    margin-top: 50px;
-    padding-top: 75px;
-    grid-gap: 1em;
-    Position: static;
-  }
-
-  .topnav a {
-    float: right;
-    display: block;
-    color: #5a3d32;
-    text-align: center;
-    padding: 25px 15px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: .85em;
-  }
-
-.contentImage img{
-  width: 200px;
-  height: 200px;
-  margin-left: 75px;
-  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
-  border-radius: 220px;
-}
-
-.skillContainer {
-  /* margin: 0px 5%;
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-gap: 1em;
-  grid-auto-rows: minmax(100px, auto) */
-  /* border: 1px solid purple; */
-  /* display: inline; */
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1em;
-  width: 400px;
-  display: grid;
-  float: left;
-  }
-
-.topPart {
-  position: static;
-  width: auto;
-  height: 1100px;
-  left: 0px;
-  top: 50px;
-  background: #E3CCC0;
-    }
-.work1 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  /* border: solid 1px yellowgreen; */
-  width: 100%;
-}
-
-.myWork {
-height: 2200px;
-}
-.workItems {
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 2em;
-  width: 300px;
-  display: grid;
-  }
+.keyInsights {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  
+  color: #5A3D32;  
 }
