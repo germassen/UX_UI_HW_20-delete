@@ -13,3 +13,21 @@ $(function(){  // $(document).ready shorthand
           }); 
       });
   });
+
+
+  $(".carousel").click(function(){
+    $("carouselExampleControls").carousel("prev");
+  });
+
+  $(".carousel").click(function(){
+    $("carouselExampleControls").carousel("next");
+  });
+
+
+  $(".carousel").click(function(){
+    $("carouselExampleControlsask").carousel("prev");
+  });
+
+  $(".carousel").click(function(){
+    $("carouselExampleControlsask").carousel("next");
+  });

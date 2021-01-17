@@ -1,3 +1,17 @@
+.card {
+  border: 0px;
+}
+
+.alert-secondary {
+background-color: #EEEBDE;
+border: 0px;
+border-radius: 0px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+padding: 20px;
+}
+
 .card-text {
   position: absolute;
   width: 400px;
@@ -47,6 +61,7 @@ font-weight: bold;
 font-size: 23px;
 line-height: 25px;
 color: #5A3D32;
+text-align: center;
 }
 
 .regularContent {
@@ -62,4 +77,132 @@ color: #5A3D32;
   letter-spacing: 0.05em;
   
   color: #5A3D32;  
+}
+
+.brand {
+  height: 40px;
+}
+
+.container-fluid {
+  background-color: #F3EEEB;
+}
+
+.bg-light {
+  background-color: #F3EEEB!important;
+}
+
+.nav-link:hover {
+  text-decoration: underline!important;
+  color: #5a3d32!important;
+}
+
+.nav-link:active {
+  text-decoration: underline!important;
+  color: #5a3d32!important;
+}
+
+.nav {
+  background: #DAA88A;
+}
+
+.nav-link {
+  color: #5a3d32;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+#userResearch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.jumbotron {
+  background: #185052;
+  padding: 50px 100px 50px 100px;
+}
+
+.display-4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lead {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #FFFFFF;
+}
+
+#ideation {
+  color: #185052;
+}
+
+.d-block {
+  border: 1px solid gray;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sr-only {
+  color: black;
+  font-family: Montserrat;
+}
+
+.carousel-inner {
+  background: #82a0a1;
+}
+
+.iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.finalThoughts {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+width: 1000px;
+height: 450px;
+
+background: #185052;
+border-radius: 25px;
+padding: 100px;
+}
+
+#final {
+  color: white;
+}
+
+.finalbullets {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
